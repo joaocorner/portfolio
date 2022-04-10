@@ -1,3 +1,57 @@
 body {
     background-color: rgb(134, 109, 109);
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-picture {
+    width: 200px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.profile-title {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.profile-name {
+    display: flex;
+}
+
+.profile-job {
+    display: flex;
+    font-size: 1.2em;
+}
+
+.general-info {
+    width: 200px;
+
+    padding: 10px;
+    background-color: rgb(54, 54, 63);
+    color: white;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    list-style-type: none;
+    font-size: 0.9em;
+}
+
+.details {
+    display: flex;
+}
+
+section {}

@@ -22,7 +22,7 @@ ul {
 }
 
 .foto-perfil {
-    background: rgba(35, 35, 99, 0.938) url("/image/foto1.jpg") no-repeat center;
+    background: rgba(35, 35, 99, 0.938) url("../image/foto1.jpg") no-repeat center;
     background-position: center center;
     height: 150px;
     width: 150px;

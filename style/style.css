@@ -14,7 +14,7 @@ body {
 header {
     background-color: rgba(35, 35, 99, 0.938);
     color: white;
-    height: 100vh;
+    height: 100%;
 }
 
 ul {

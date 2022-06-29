@@ -43,6 +43,18 @@ ul {
     margin-bottom: 15px;
 }
 
+.contatos {
+    height : 30px;
+
+    display : flex;
+    align-items : center;
+    justify-content : left;
+}
+
+a:visited {
+    color: white;
+}
+
 .bloco-idiomas {
     display: flex;
 }

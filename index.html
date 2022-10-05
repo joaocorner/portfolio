@@ -1,90 +1,158 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - João Corner</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - João Corner</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
 
-<body>
-    <header class="barra-lateral">
-        <div class="foto-perfil"></div>
-        <h1 class="nome-perfil">João Eduardo Corner</h1>
-        <p class="cargo">Software Developer</p>
-        <h2>Contatos</h2>
-        <ul>
-            <li class="contatos"><img src="image/email_ico2.png" alt="e-mail icon">  joaoeduardocorner@gmail.com</li>
-            <a href="https://www.linkedin.com/in/joaoeduardocorner/" target="_blank">
-                <li class="contatos"> <img src="image/linkedin_ico2.png" alt="linkedin icon">  joaoeduardocorner/</li>
-            </a>
-            <a href="https://github.com/joaocorner" target="_blank">
-                <li class="contatos"><img src="image/github_ico2.png" alt="github icon">  github.com/joaocorner</li>
-            </a>
-        </ul>
-        <h2>Idiomas</h2>
+  <body class="bg-secondary">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 bg-dark text-white text-center py-4">
+          <div class="header-left">
+            <img src="./image/foto1.jpg" class="img rounded-circle mb-5 w-50" />
+            <h1 class="display-6">João Eduardo Corner</h1>
+            <h4 class="lead text-uppercase text-white-50 mb-4">
+              Front End Developer
+            </h4>
+          </div>
+          <h5 class="text-uppercase bg-white text-dark py-2 mb-3 rounded-pill">
+            contact
+          </h5>
 
-        <div class="bloco-idiomas">
-            <ul class="idiomas">
-                <li>Português</li>
-                <li>Inglês</li>
-                <li>Alemão</li>
-                <li>Espanhol</li>
+          <div class="container mb-3">
+            <div class="row">
+              <div class="col">
+                <a href="mailto:joaoeduardocorner@gmail.com">
+                  <i class="bi bi-envelope text-light mx-4 lead"></i>
+                </a>
+              </div>
+              <div class="col">
+                <a
+                  href="https://www.linkedin.com/in/joaoeduardocorner/"
+                  target="_blank"
+                  class="link-light"
+                >
+                  <i class="bi bi-linkedin text-light mx-4 lead"></i>
+                </a>
+              </div>
+              <div class="col">
+                <a
+                  href="https://github.com/joaocorner"
+                  target="_blank"
+                  class="link-light"
+                >
+                  <i class="bi bi-github text-light mx-2 lead"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <h5 class="text-uppercase bg-white text-dark py-2 my-4 rounded-pill">
+            languages
+          </h5>
+
+          <div class="col-md-12">
+            <ul class="list-unstyled row">
+              <li class="list-item col-6 border-top py-2">Portuguese</li>
+              <li class="list-item col-6 border-top py-2">Native</li>
+              <li class="list-item col-6 border-top py-2">English</li>
+              <li class="list-item col-6 border-top py-2">
+                Upper-Intermediate
+              </li>
+              <li class="list-item col-6 border-top py-2">German</li>
+              <li class="list-item col-6 border-top py-2">Beginner</li>
+              <li class="list-item col-6 border-top py-2 border-bottom">
+                Spanish
+              </li>
+              <li class="list-item col-6 border-top border-bottom py-2">
+                Beginner
+              </li>
             </ul>
-            <ul class="nivel-idioma">
-                <li>Nativo</li>
-                <li>Intermediário</li>
-                <li>Básico</li>
-                <li>Básico</li>
-            </ul>
+            <ul class=""></ul>
+          </div>
+
+          <h5 class="text-uppercase bg-white text-dark py-2 my-4 rounded-pill">
+            Programming Skills
+          </h5>
+
+          <ul class="list-unstyled row m-5 mt-1">
+            <li class="list-item py-2 text-start">Javascript</li>
+            <li class="list-item py-2 text-start">HTML</li>
+            <li class="list-item py-2 text-start">CSS</li>
+            <li class="list-item py-2 text-start">Bootstrap</li>
+            <li class="list-item py-2 text-start">React.js</li>
+            <li class="list-item py-2 text-start">SQL</li>
+            <li class="list-item py-2 text-start">Python</li>
+            <li class="list-item py-2 text-start">Git</li>
+          </ul>
         </div>
+        <div class="col-lg-8 bg-light text-dark py-4 px-5">
+          <h2>Summary</h2>
+          <p>In career migration.</p>
+          <p>
+            application where it was possible to access information from images
+            and data about engines. Another project was the implementation of
+            transformer monitoring using LabVIEW, with alarms, and event
+            history, among other features. Both jobs were while I was working as
+            an electrical technician intern at Braskem.
+          </p>
+          I have already worked with PowerApps, where I developed the part of an
+          <p>
+            I also developed a Telegram bot to record daily data in spreadsheets
+            and return processed data from it, while working at ServLog, for
+            personal use in my day-to-day.
+          </p>
+          <p>
+            I am a person who seeks process optimization, currently studying
+            React. I have good knowledge of HTML/CSS/JavaScript.
+          </p>
+          <h2>Education</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+            voluptates consequatur enim cupiditate odio sed minus, voluptatem
+            iure exercitationem nostrum tenetur odit excepturi quod? Minus,
+            eveniet. Ea laudantium aliquam consectetur!
+          </p>
+          <h2>Experience</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+            non quis omnis illo veniam officiis eaque voluptates est quaerat a
+            voluptatum illum hic quisquam culpa aut cumque nam saepe! Alias.
+          </p>
 
-        <h2>Linguagens</h2>
-        <ul>
-            <li>Python</li>
-            <li>Javascript</li>
-            <li>VBA</li>
-        </ul>
-    </header>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+            non quis omnis illo veniam officiis eaque voluptates est quaerat a
+            voluptatum illum hic quisquam culpa aut cumque nam saepe! Alias.
+          </p>
 
-    <main class="corpo">
-        <h2>Objetivo</h2>
-        <p>Em migração de carreira.
-            Já trabalhei com PowerApps, onde desenvolvi a parte de um aplicativo em que era possível acessar informações
-            de imagens e dados sobre motores. Outro projeto foi a implementação de um monitoramento de transformador
-            utilizando o LabVIEW, com alarmes, histórico de eventos, dentre outras funcionalidades. Ambos os trabalhos
-            foram enquanto atuava como estagiário de eletrotécnica pela Braskem.
-        </p>
-        <p>Também desenvolvi um bot no Telegram, para o registro em planilhas de dados diários, e retornava dados
-            processados dela, enquanto trabalhava na ServLog, para uso pessoal no meu dia-a-dia.
-        </p>
-        <p>
-            Sou uma pessoa que busca a otimização de processos, atualmente estudando a plataforma .NET, banco de dados e
-            PHP. Possuo bons conhecimentos em HTML e CSS.</p>
-        <h2>Formação</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptates consequatur enim cupiditate odio sed
-            minus, voluptatem iure exercitationem nostrum tenetur odit excepturi quod? Minus, eveniet. Ea laudantium
-            aliquam consectetur!</p>
-        <h2>Experiência</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, non quis omnis illo veniam officiis eaque
-            voluptates est quaerat a voluptatum illum hic quisquam culpa aut cumque nam saepe! Alias.</p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, non quis omnis illo veniam officiis eaque
-            voluptates est quaerat a voluptatum illum hic quisquam culpa aut cumque nam saepe! Alias.</p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, non quis omnis illo veniam officiis eaque
-            voluptates est quaerat a voluptatum illum hic quisquam culpa aut cumque nam saepe! Alias.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, non quis omnis illo veniam officiis eaque
-            voluptates est quaerat a voluptatum illum hic quisquam culpa aut cumque nam saepe! Alias.</p>
-        <h2>Habilidades</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat facilis veritatis itaque, doloremque
-            deserunt exercitationem praesentium cum ullam molestiae dolor ducimus maxime necessitatibus quam dolores
-            voluptatibus nisi adipisci alias similique!</p>
-    </main>
-
-
-</body>
-
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+            non quis omnis illo veniam officiis eaque voluptates est quaerat a
+            voluptatum illum hic quisquam culpa aut cumque nam saepe! Alias.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+            non quis omnis illo veniam officiis eaque voluptates est quaerat a
+            voluptatum illum hic quisquam culpa aut cumque nam saepe! Alias.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

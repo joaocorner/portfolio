@@ -18,6 +18,10 @@
   transform: scale(105%);
 }
 
+a:visited {
+  color: white;
+}
+
 @media (max-width: 992px) {
   .btn {
     background-color: rgb(62, 59, 59);

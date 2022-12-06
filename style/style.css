@@ -18,6 +18,10 @@
   transform: scale(105%);
 }
 
+a {
+  color: white;
+}
+
 a:visited {
   color: white;
 }
